@@ -1,5 +1,5 @@
 This project aimed to format the data from Human Activity Recognition Use
-Smartphones Dataset as a tidy dataset.
+Smartphones Dataset [1] as a tidy dataset.
 
 The script to format the data is run_analysis.R. The script expect that the data
 are unzip in "UCI HAR Dataset" folder. In case of an other directory change the
@@ -23,3 +23,8 @@ The data are then rearanged:
 Finally reformat the dataset as tidy with only the mean data. This final dataset
 is saved tidy_data.txt. The dataset is fomrated as a long tidy dataset. The
 detail of the data format in this file is detailled in the CodeBook.md file.
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L.
+Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass
+Hardware-Friendly Support Vector Machine. International Workshop of Ambient
+Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
