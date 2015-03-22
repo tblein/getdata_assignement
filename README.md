@@ -1,5 +1,5 @@
 This project aimed to format the data from Human Activity Recognition Use
-Smartphones Dataset as tidy dataset.
+Smartphones Dataset as a tidy dataset.
 
 The script to format the data is run_analysis.R. The script expect that the data
 are unzip in "UCI HAR Dataset" folder. In case of an other directory change the
@@ -21,5 +21,5 @@ The data are then rearanged:
   - on this dataset, format the activity columns to have meaning full name.
 
 Finally reformat the dataset as tidy with only the mean data. This final dataset
-is saved tidy_data.txt. The detail of the data format in this file is detailled
-in the CodeBook.md file.
+is saved tidy_data.txt. The dataset is fomrated as a long tidy dataset. The
+detail of the data format in this file is detailled in the CodeBook.md file.
